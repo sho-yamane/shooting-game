@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A290DC62C9519D700543C7E /* SceneReconstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A290DC52C9519D700543C7E /* SceneReconstruction.swift */; };
+		4A290DC82C954C9D00543C7E /* ImageTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A290DC72C954C9D00543C7E /* ImageTracking.swift */; };
 		4A7937472C8BCDE4007B7CC9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4A7937462C8BCDE4007B7CC9 /* RealityKitContent */; };
 		4A7937492C8BCDE4007B7CC9 /* Chapter7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7937482C8BCDE4007B7CC9 /* Chapter7App.swift */; };
 		4A79374B2C8BCDE4007B7CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79374A2C8BCDE4007B7CC9 /* ContentView.swift */; };
 		4A79374D2C8BCDE4007B7CC9 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79374C2C8BCDE4007B7CC9 /* ImmersiveView.swift */; };
 		4A79374F2C8BCDE5007B7CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A79374E2C8BCDE5007B7CC9 /* Assets.xcassets */; };
 		4A7937522C8BCDE5007B7CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7937512C8BCDE5007B7CC9 /* Preview Assets.xcassets */; };
+		4A79375A2C8C136B007B7CC9 /* HandTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7937592C8C136B007B7CC9 /* HandTracking.swift */; };
+		4A79375C2C8C21CD007B7CC9 /* ShootingLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79375B2C8C21CD007B7CC9 /* ShootingLogic.swift */; };
+		4AD405362C950A180007AB2F /* WorldTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD405352C950A180007AB2F /* WorldTracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A290DC52C9519D700543C7E /* SceneReconstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneReconstruction.swift; sourceTree = "<group>"; };
+		4A290DC72C954C9D00543C7E /* ImageTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTracking.swift; sourceTree = "<group>"; };
 		4A7937412C8BCDE4007B7CC9 /* Chapter7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7937452C8BCDE4007B7CC9 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		4A7937482C8BCDE4007B7CC9 /* Chapter7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter7App.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		4A79374E2C8BCDE5007B7CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7937512C8BCDE5007B7CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A7937532C8BCDE5007B7CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7937592C8C136B007B7CC9 /* HandTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandTracking.swift; sourceTree = "<group>"; };
+		4A79375B2C8C21CD007B7CC9 /* ShootingLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootingLogic.swift; sourceTree = "<group>"; };
+		4AD405352C950A180007AB2F /* WorldTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTracking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +71,13 @@
 				4A7937482C8BCDE4007B7CC9 /* Chapter7App.swift */,
 				4A79374A2C8BCDE4007B7CC9 /* ContentView.swift */,
 				4A79374C2C8BCDE4007B7CC9 /* ImmersiveView.swift */,
+				4A290DC52C9519D700543C7E /* SceneReconstruction.swift */,
+				4A79375B2C8C21CD007B7CC9 /* ShootingLogic.swift */,
 				4A79374E2C8BCDE5007B7CC9 /* Assets.xcassets */,
+				4A290DC72C954C9D00543C7E /* ImageTracking.swift */,
 				4A7937532C8BCDE5007B7CC9 /* Info.plist */,
+				4AD405352C950A180007AB2F /* WorldTracking.swift */,
+				4A7937592C8C136B007B7CC9 /* HandTracking.swift */,
 				4A7937502C8BCDE5007B7CC9 /* Preview Content */,
 			);
 			path = Chapter7;
@@ -158,8 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A79374B2C8BCDE4007B7CC9 /* ContentView.swift in Sources */,
+				4AD405362C950A180007AB2F /* WorldTracking.swift in Sources */,
+				4A290DC62C9519D700543C7E /* SceneReconstruction.swift in Sources */,
 				4A7937492C8BCDE4007B7CC9 /* Chapter7App.swift in Sources */,
+				4A290DC82C954C9D00543C7E /* ImageTracking.swift in Sources */,
+				4A79375C2C8C21CD007B7CC9 /* ShootingLogic.swift in Sources */,
 				4A79374D2C8BCDE4007B7CC9 /* ImmersiveView.swift in Sources */,
+				4A79375A2C8C136B007B7CC9 /* HandTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +313,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chapter7/Preview Content\"";
-				DEVELOPMENT_TEAM = SL3V7N3589;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "シューティングゲーム";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,10 +340,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chapter7/Preview Content\"";
-				DEVELOPMENT_TEAM = SL3V7N3589;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "シューティングゲーム";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
